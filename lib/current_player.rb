@@ -5,7 +5,5 @@ end
 
 def current_player(board)
  player = turn_count(board)
-
  if player == 1 ? return "X" : return "O"
- 
 end
