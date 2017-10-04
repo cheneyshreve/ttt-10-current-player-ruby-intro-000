@@ -1,5 +1,8 @@
 
-def turn_count
+def turn_count(board)
+  
+ board.each{|player| if board[player] == "X" return player = 1 else return player = 2}
+ 
 
 end
 
