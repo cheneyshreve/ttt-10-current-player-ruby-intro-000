@@ -1,6 +1,13 @@
 
 def turn_count(board)
- board.each{|count| if count.odd? == true return 1 else return 2)
+ board.each do |space| 
+   if space != " " || space != "" 
+    count += 1 
+  else 
+    count += 0
+  end  
+ end   
+   return count  
 end
 
 def current_player(board)
